@@ -1,0 +1,64 @@
+.container{
+    border: 2px solid;
+    width: 870px;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #696969;
+    
+    
+}
+.one{
+    border: 2px solid rgb(99, 153, 51);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #F4A460;
+    
+    
+}
+.jpg{
+    width: 150px;
+    height: 150px;
+    margin: 0 8px 0 0;
+    border-radius: 15px;
+    float: left;
+
+
+    
+    
+}
+.second{
+    border: 2px solid rgb(99, 153, 51);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 8px;
+    background-image: url(boy.jpg);
+    background-size: cover;
+
+    
+}
+button{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    float: right;
+    background-color: cyan;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    
+}
+button:hover{
+    box-shadow: 0 0 5px cyan , 0 0 25px cyan , 0 0 50px cyan , 0 0 100px cyan, 0 0 200px cyan;
+}
+h1{
+    color: azure;
+    text-align: center;
+    margin: 350px 0 0 0;
+    color: transparent;
+    text-shadow: 0 0 3px rgb(204, 190, 190);
+
+}
